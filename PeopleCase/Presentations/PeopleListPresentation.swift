@@ -20,7 +20,6 @@ struct PeopleListPresentation: Equatable {
 }
 
 extension PeopleListPresentation {
-    
     init(person: Person) {
         self.init(id: person.id,
                   fullName: person.fullName)

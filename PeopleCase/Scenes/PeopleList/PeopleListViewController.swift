@@ -113,8 +113,6 @@ extension PeopleListViewController: UITableViewDataSource {
         let cell =  tableView.dequeueReusableCell(for: indexPath, cellType: PeopleListTableViewCell.self)
         let person = peopleList[indexPath.row]
         
-        
-        
         cell.fullNameLabel.text = person.fullName + " (" + "\(person.id)" + ")"
         
         return cell
